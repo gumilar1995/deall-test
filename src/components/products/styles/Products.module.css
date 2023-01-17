@@ -1,0 +1,11 @@
+.tableWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  height: clamp(300px, 60vh, 750px);
+}
+
+.searchBox {
+  width: clamp(150px, 30%, 300px);
+  align-self: flex-end;
+}
